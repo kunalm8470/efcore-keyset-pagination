@@ -49,7 +49,7 @@ The data returned looks like this -
 
 1. Run the console application `GenerateBulkFakeStudents` and copy the CSV file generated in the `bin > debug > net6.0` directory.
 
-2. Copy the generated CSV into some shared directory like `C:\Temp`.
+2. Paste the generated CSV into some shared directory like `C:\Temp`.
 
 3. Open SSMS and point to the `StudentsDbKeysetPagination` database and open up a new query window.
 
