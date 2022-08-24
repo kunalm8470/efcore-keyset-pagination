@@ -1,6 +1,6 @@
 ﻿namespace KeysetPagination.Application.Students.v1.Queries.GetStudentsWithPagination;
 
-public class StudentDto
+public record StudentDto
 {
     public int Id { get; set; }
     public string FirstName { get; set; }
