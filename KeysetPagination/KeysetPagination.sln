@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BFCAC7C9-961C-481D-8625-CE785C6103F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeysetPagination.API", "src\KeysetPagination.API\KeysetPagination.API.csproj", "{402AB65E-947C-49F0-BEAC-F9EBF02DEA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeysetPagination.Application", "src\KeysetPagination.Application\KeysetPagination.Application.csproj", "{E697B783-3377-4627-B9F9-C461495E5677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeysetPagination.Domain", "src\KeysetPagination.Domain\KeysetPagination.Domain.csproj", "{299A9C28-871F-4711-85A1-7BAD27C34D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeysetPagination.Infrastructure", "src\KeysetPagination.Infrastructure\KeysetPagination.Infrastructure.csproj", "{05C86C45-6F55-4405-A8EA-9F885F56B40A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{402AB65E-947C-49F0-BEAC-F9EBF02DEA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402AB65E-947C-49F0-BEAC-F9EBF02DEA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402AB65E-947C-49F0-BEAC-F9EBF02DEA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402AB65E-947C-49F0-BEAC-F9EBF02DEA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E697B783-3377-4627-B9F9-C461495E5677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E697B783-3377-4627-B9F9-C461495E5677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E697B783-3377-4627-B9F9-C461495E5677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E697B783-3377-4627-B9F9-C461495E5677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299A9C28-871F-4711-85A1-7BAD27C34D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299A9C28-871F-4711-85A1-7BAD27C34D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299A9C28-871F-4711-85A1-7BAD27C34D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299A9C28-871F-4711-85A1-7BAD27C34D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C86C45-6F55-4405-A8EA-9F885F56B40A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C86C45-6F55-4405-A8EA-9F885F56B40A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C86C45-6F55-4405-A8EA-9F885F56B40A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C86C45-6F55-4405-A8EA-9F885F56B40A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{402AB65E-947C-49F0-BEAC-F9EBF02DEA9F} = {BFCAC7C9-961C-481D-8625-CE785C6103F5}
+		{E697B783-3377-4627-B9F9-C461495E5677} = {BFCAC7C9-961C-481D-8625-CE785C6103F5}
+		{299A9C28-871F-4711-85A1-7BAD27C34D10} = {BFCAC7C9-961C-481D-8625-CE785C6103F5}
+		{05C86C45-6F55-4405-A8EA-9F885F56B40A} = {BFCAC7C9-961C-481D-8625-CE785C6103F5}
+	EndGlobalSection
+EndGlobal
